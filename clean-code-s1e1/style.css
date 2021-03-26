@@ -33,7 +33,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-task__row-wrapper {
   display: flex;
 }
 .wrapper-lists {
@@ -103,7 +103,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,11 +146,11 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.wrapper-lists_to-do_edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.wrapper-lists_to-do_edit-mode label {
   display: none;
 }
